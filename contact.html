@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contacts</title>
+</head>
+<body>
+    <h3>Contacts</h3>
+    <Table>
+        <tr><td>moblie number</td>
+            <td>7355716767</td>
+        </tr>
+        <tr>
+            <td>alternative mobile no.</td>
+            <td>8572981803</td>
+        </tr>
+        <tr>
+            <td>email-id</td>
+            <td>aryandwivedi917@gmail.com</td>
+        </tr>
+    </Table>
+    <hr>
+    <form action="mailto:aryandwivedi917@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:*</label>
+        <input type="text" name="name" id="name" required ><br>
+        <label for="address">Address:*</label>
+        <textarea name="address" id="address" cols="30" rows="10" required></textarea><br>
+        <label for="DOB">D.O.B:*</label>
+        <input type="date" name="DOB" id="DOB" required><br>
+        <fieldset>
+            <legend>Gender*</legend>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" placeholder="male" required>
+            <label for="female">Female</label>
+            <input type= "radio" name="gender" id="female" placeholder="female" required>
+        </fieldset><br>
+        <label for="photo">upload a photo of yours*</label>
+        <input type="file" name="photo" id="photo" required accept="video/*,.png,.docs,.jpg,.jpeg"><br>
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>
